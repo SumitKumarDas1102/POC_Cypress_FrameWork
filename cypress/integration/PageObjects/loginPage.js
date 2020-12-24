@@ -4,18 +4,18 @@ class loginPage {
 
 //Open the web page
 visit(){
-    cy.visit("https://admin-demo.nopcommerce.com/login")
+    cy.visit("https://app.clickup.com/login")
 }
 
 fillEmail(value){
- const emailId = cy.get('[id=Email]')
+ const emailId = cy.get("//input[@id='email-input']")
  emailId.clear()
  emailId.type(value)
  return this
 }
 
 fillPassword(value){
-    const password = cy.get('[name=Password]')
+    const password = cy.get("//input[@id='password-input']")
     password.clear()
     password.type(value)
     return this

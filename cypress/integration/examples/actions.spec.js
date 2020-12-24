@@ -2,7 +2,7 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('https://example.cypress.io/commands/actions')
+    cy.visit('https://www.greenwayhealth.com/solutions/clearinghouse-services')
   })
 
   // https://on.cypress.io/interacting-with-elements
